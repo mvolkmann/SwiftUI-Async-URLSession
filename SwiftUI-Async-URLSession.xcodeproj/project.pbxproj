@@ -11,6 +11,8 @@
 		4DA00981274198E1004961E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA00980274198E1004961E9 /* ContentView.swift */; };
 		4DA00983274198E2004961E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA00982274198E2004961E9 /* Assets.xcassets */; };
 		4DA00986274198E2004961E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA00985274198E2004961E9 /* Preview Assets.xcassets */; };
+		4DA0098D2741991C004961E9 /* HttpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0098C2741991C004961E9 /* HttpUtil.swift */; };
+		4DA0098F2741993E004961E9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0098E2741993E004961E9 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4DA00980274198E1004961E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DA00982274198E2004961E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA00985274198E2004961E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DA0098C2741991C004961E9 /* HttpUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpUtil.swift; sourceTree = "<group>"; };
+		4DA0098E2741993E004961E9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				4DA0097E274198E1004961E9 /* SwiftUI_Async_URLSessionApp.swift */,
 				4DA00980274198E1004961E9 /* ContentView.swift */,
+				4DA0098C2741991C004961E9 /* HttpUtil.swift */,
+				4DA0098E2741993E004961E9 /* ViewModel.swift */,
 				4DA00982274198E2004961E9 /* Assets.xcassets */,
 				4DA00984274198E2004961E9 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				4DA00981274198E1004961E9 /* ContentView.swift in Sources */,
 				4DA0097F274198E1004961E9 /* SwiftUI_Async_URLSessionApp.swift in Sources */,
+				4DA0098F2741993E004961E9 /* ViewModel.swift in Sources */,
+				4DA0098D2741991C004961E9 /* HttpUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

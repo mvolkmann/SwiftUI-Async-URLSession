@@ -1,15 +1,10 @@
-//
-//  ContentView.swift
-//  SwiftUI-Async-URLSession
-//
-//  Created by R. Mark Volkmann on 11/14/21.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var vm = ViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("list dogs here")
             .padding()
     }
 }
